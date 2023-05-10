@@ -5,7 +5,7 @@
   font-family: "poppins", sans-serif;
 }
 nav {
-  background-color: rgb(43, 206, 43);
+  background-color: rgb(184, 47, 202);
   color: black;
   padding: 1rem 5rem;
 }
@@ -16,7 +16,7 @@ nav {
   text-align: center;
 }
 .button {
-  color: green;
+  color: rgb(228, 136, 208);
   font-size: 60px;
   height: 65px;
   position: fixed;
