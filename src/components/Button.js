@@ -10,7 +10,10 @@ const Button = ({ setUpdateUI }) => {
     formData.append("photo", e.target.files[0]);
 
     axios
-      .post("https://photo-gallery-app-bk.onrender.com/api/save", formData)
+      .post(
+        "https://photo-gallery-app-backend-s4i2.onrender.com/api/save",
+        formData
+      )
       .then((res) => {
         console.log(res.data);
         setUpdateUI(res.data._id);
